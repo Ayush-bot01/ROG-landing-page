@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 14, 5);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    box-sizing: border-box;
+}
+
+#navbar {
+    margin: 0 auto;
+    width: 90%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+#logo-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.one {
+    border-radius: 40%;
+}
+
+#nav-items {
+    display: flex;
+    width: 380px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+#nav-items li {
+    cursor: pointer;
+}
+
+#main-header {
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+    position: relative;
+}
+
+#main-header .left {
+    position: relative;
+    width: 40%;
+    top: 100px;
+    left: 6%;
+    height: 100%;
+    color: #ffffff;
+}
+
+#main-header .left .big-text {
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 530;
+}
+
+#main-header .left #overview {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 50;
+}
+
+#main-header .left #overview .overview-items {
+    display: flex;
+    padding-left: 11px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-header .left #overview .overview-items h4 {
+    font-weight: 700;
+    font-size: 19px;
+    margin: 0;
+}
+
+#main-header .left #overview .overview-items p {
+    margin: 0%;
+    padding: 0%;
+    font-weight: 300;
+}
+
+.gradient-text {
+    color: rgba(177, 17, 17, 0.733);
+}
+
+#main-header .right {
+    width: 90%;
+    height: 100%;
+    z-index: -10;
+    mix-blend-mode: color-dodge;
+}
+
+#main-header .right img {
+    width: 90%;
+    height: 70vh;
+}
+
+.buttons {
+    display: flex;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    border: 2px solid rgba(177, 17, 17, 0.733);
+    color: #ffffff;
+}
+
+.btn1 {
+    background-color: rgba(177, 17, 17, 0.733);
+}
+
+.btn2 {
+    background-color: rgb(32, 14, 5);
+}
+
+
+
+.band {
+    font-size: 16px;
+    font-weight: 900;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    transform: rotate(-5deg);
+    background: #664a4a40;
+    backdrop-filter: blur(4px);
+}
+
+.choose-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.choose-section-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section-description {
+    width: 500px;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.choose-section .image-carousel {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.image-carousel .center-img {
+    width: 500px;
+    height: auto;
+}
+
+.vr {
+    mix-blend-mode: color-dodge;
+    height: auto;
+    width: 450px;
+}
+
+.discover-section {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.discover-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    background: rgb(53, 23, 9);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgb(34, 14, 4);
+}
+
+.discover-card-details .big-text {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.discover-card-details-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    border: 2px solid rgba(177, 17, 17, 0.733);
+    color: #ffffff;
+    width: fit-content;
+}
+
+footer {
+    background-image: url(asus-rog-4k-gaming-minimalist-logo-i8iu3589f0qyn593.webp);
+    mix-blend-mode: color-dodge;
+    margin-left: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-left: 80px;
+    margin-left: 0px;
+    font-size: 15px;
+    list-style: none;
+}
+
+.brands {
+    padding-right: 100px;
+}
+
+.company {
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+
+.two {
+    padding-bottom: 30px;
+}
+
+.footer-container .about {
+    font-size: 25px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
+    .items {
+      display: none;
+    }
+  
+    .row {
+      grid-template-columns: 1fr;
+    }
+    .learn-more {
+      align-self: start;
+      margin: 1rem 0px;
+    }}
